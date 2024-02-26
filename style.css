@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .top,
@@ -58,6 +58,172 @@ button,
     color: white;
 }
 
+button {
+    padding: 6px 20px;
+}
+
 
 
 /* LAYOUT BELOW */
+
+body {
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 30px;
+    min-width: 900px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.header-links {
+    display: flex;
+    gap: 18px;
+}
+
+.hero {
+    display: flex;
+    align-self: center;
+    width: 900px;
+    padding: 30px;
+    align-items: center;
+}
+
+.hero-body {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.hero-text {
+    padding: 18px 0;
+}
+
+.image-groups img {
+    height: 60px;
+    width: 60px;
+}
+
+.hero img {
+    height: 200px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.body-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 30px;
+    width: 900px;
+    margin: auto;
+}
+
+.image-groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 0;
+
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+}
+
+.group img {
+    border-radius: 15%;
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+}
+
+.body-quote {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 900px;
+    align-items: center;
+}
+
+.quote-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-thor {
+    align-self:  flex-end;
+    padding: 0 30px;
+    font-size: 22px;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.body-action {
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+    max-width: 800px;
+    justify-content: center;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.action-title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+button {
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.hero button {
+    border: none;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
