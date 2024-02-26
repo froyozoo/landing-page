@@ -1,0 +1,63 @@
+/* STYLING HERE */
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top,
+.footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo,
+.hero-main {
+    color: #f9faf8;
+}
+
+a,
+.hero-text,
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero-main {
+    font-size: 48px;
+}
+
+.info-title {
+    font-size: 36px;
+}
+
+.hero-main,
+.info-title,
+.quote-thor,
+.logo {
+    font-weight: bolder;
+}
+
+.body-quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+button,
+.body-action {
+    background-color: #3882f6;
+    color: white;
+}
+
+
+
+/* LAYOUT BELOW */
